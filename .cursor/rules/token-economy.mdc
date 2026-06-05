@@ -9,7 +9,7 @@ alwaysApply: true
 Every distinct task gets its own chat. Never carry a bug investigation into a new feature in the same session. Long chats compound: every turn re-sends the full conversation history.
 
 ## NEVER load app.py whole
-`app.py` is 31,466 lines (~120k tokens). Loading it whole costs ~$0.50+ per read in Claude Sonnet.
+`app.py` is ~54,000 lines (~200k tokens). Loading it whole costs ~$0.80+ per read in Claude Sonnet.
 
 **Always:**
 - Grep or SemanticSearch first to find the exact function/route
